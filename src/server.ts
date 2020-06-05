@@ -14,5 +14,5 @@ app.use(routes);
 app.use('/uploads', express.static(path.resolve(__dirname, '..', 'uploads')))
 
 app.listen(process.env.PORT, () => {
-  console.log(`Server listen at ${process.env.BASE_URL}:${process.env.PORT} 🚀️`);
+  console.log(`Server listen at ${process.env.BASE_URL} 🚀️`);
 });
